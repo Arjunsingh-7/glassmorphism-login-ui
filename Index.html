@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlassGate - Modern Authentication System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="snow-container" id="snowContainer"></div>
+    <div class="container">
+<!-- Login Form -->
+        <div class="glass-card" id="loginCard">
+            <h1>Login</h1>
+            <p class="subtitle">Using HTML, CSS & JS</p>
+            
+            <div class="language-selector">
+                <div class="language-option active">English</div>
+                <div class="language-option">Español</div>
+                <div class="language-option">Français</div>
+                <div class="language-option">Deutsch</div>
+            </div>
+            
+            <div id="loginMessage" class="message"></div>
+            
+            <form class="login-form" id="loginForm">
+                <div class="input-group">
+                    <i class="fas fa-user input-icon"></i>
+                    <input type="text" class="input-field" id="loginUsername" placeholder="Username" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock input-icon"></i>
+                    <input type="password" class="input-field" id="loginPassword" placeholder="Password" required>
+                    <i class="fas fa-eye-slash toggle-password" id="toggleLoginPassword"></i>
+                </div>
+                
+                <div class="options">
+                    <div class="remember">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#" class="forgot-password" id="forgotPassword">Forgot Password?</a>
+                </div>
+                
+                <button type="submit" class="login-button">Login</button>
+                
+                <p class="register-link">
+                    Don't have an account? <a id="showRegister">Register</a>
+                </p>
+            </form>
+        </div>
+        
+  <!-- Registration Form -->
+        <div class="glass-card hidden" id="registerCard">
+            <h1>Register</h1>
+            <p class="subtitle">Create a new account</p>
+            
+            <div class="language-selector">
+                <div class="language-option active">English</div>
+                <div class="language-option">Español</div>
+                <div class="language-option">Français</div>
+                <div class="language-option">Deutsch</div>
+            </div>
+            
+            <div id="registerMessage" class="message"></div>
+            
+            <form class="register-form" id="registerForm">
+                <div class="input-group">
+                    <i class="fas fa-user input-icon"></i>
+                    <input type="text" class="input-field" id="registerUsername" placeholder="Username" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-envelope input-icon"></i>
+                    <input type="email" class="input-field" id="registerEmail" placeholder="Email" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock input-icon"></i>
+                    <input type="password" class="input-field" id="registerPassword" placeholder="Password" required>
+                    <i class="fas fa-eye-slash toggle-password" id="toggleRegisterPassword"></i>
+                    <div id="passwordStrength" class="password-strength"></div>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock input-icon"></i>
+                    <input type="password" class="input-field" id="confirmPassword" placeholder="Confirm Password" required>
+                    <i class="fas fa-eye-slash toggle-password" id="toggleConfirmPassword"></i>
+                </div>
+                
+                <button type="submit" class="register-button">Register</button>
+                
+                <p class="login-link">
+                    Already have an account? <a id="showLogin">Login</a>
+                </p>
+            </form>
+        </div>
+        
+<!-- Forgot Password Form -->
+        <div class="glass-card hidden" id="forgotCard">
+            <h1>Reset Password</h1>
+            <p class="subtitle">Enter your email to reset your password</p>
+            
+            <div id="forgotMessage" class="message"></div>
+            
+            <form class="forgot-form" id="forgotForm">
+                <div class="input-group">
+                    <i class="fas fa-envelope input-icon"></i>
+                    <input type="email" class="input-field" id="forgotEmail" placeholder="Email" required>
+                </div>
+                
+                <button type="submit" class="login-button">Send Reset Link</button>
+                
+                <p class="login-link">
+                    Remember your password? <a id="showLoginFromForgot">Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
