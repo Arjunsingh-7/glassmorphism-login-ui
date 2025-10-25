@@ -8,9 +8,7 @@
 > A stunning glass morphism authentication system with seamless login, registration, and password recovery features. Built with pure HTML, CSS, and JavaScript.
 
 ## ✨ Live Demo
-**[🔗 View Live Demo](https://drive.google.com/file/d/1NtPG_BvxbVLAPT27RRPac-mncVJMh4Qx/view?usp=sharing)**
-
-## 🎥 Preview
+[🔗 View Live Demo](https://drive.google.com/file/d/1NtPG_BvxbVLAPT27RRPac-mncVJMh4Qx/view?usp=sharing)
 ## 🎥 Preview
 ![GlassGate Screenshot](https://drive.google.com/uc?export=view&id=1VIeTBQw1D3DZ5vyFwbncBnTsVaRtFC0N)
 
