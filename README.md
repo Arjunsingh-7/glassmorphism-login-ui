@@ -11,7 +11,8 @@
 **[🔗 View Live Demo](https://drive.google.com/file/d/1NtPG_BvxbVLAPT27RRPac-mncVJMh4Qx/view?usp=sharing)**
 
 ## 🎥 Preview
-![GlassGate Screenshot](https://drive.google.com/file/d/1VIeTBQw1D3DZ5vyFwbncBnTsVaRtFC0N/view?usp=sharing)
+## 🎥 Preview
+![GlassGate Screenshot](https://drive.google.com/uc?export=view&id=1VIeTBQw1D3DZ5vyFwbncBnTsVaRtFC0N)
 
 ## 🌟 Features
 
